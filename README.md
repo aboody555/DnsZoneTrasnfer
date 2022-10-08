@@ -15,7 +15,7 @@ https://github.com/aboody555/DnsZoneTrasnfer.git
 cd DnsZoneTrasnfer/
 ```
 ```
-chomd +x dnsZoneTransfer
+chmod +x dnsZoneTransfer
 ```
 ```
 ./dnsZoneTransfer <domain name>
