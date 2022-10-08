@@ -8,7 +8,8 @@ This script attempt zone transfer for any domain. All what you have to do is sim
 
 # How to use 
 ```
-git clone https://github.com/aboody555/DnsZoneTransfer
+https://github.com/aboody555/DnsZoneTrasnfer.git
+
 ```
 ```
 cd DnsZoneTransfer/
