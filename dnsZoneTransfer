@@ -1,0 +1,13 @@
+#!/bin/bash
+
+#simple zone trasfer bash script
+
+if [ -z "$1" ]; then
+	echo "[*] simple zone transfer script"
+	echo "[*] Usage  : $0 <domain name> "
+	exit 0
+fi
+host -t ns $1 | cut -d " " -f4
+for server in $(host -t ns $1 | cut -d " " -f4); do
+	host -l $1 $server |grep "has address"
+done
