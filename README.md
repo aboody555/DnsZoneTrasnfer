@@ -12,7 +12,7 @@ https://github.com/aboody555/DnsZoneTrasnfer.git
 
 ```
 ```
-cd DnsZoneTransfer/
+cd DnsZoneTrasnfer/
 ```
 ```
 chomd +x dnsZoneTransfer
