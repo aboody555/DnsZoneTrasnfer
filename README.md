@@ -18,6 +18,6 @@ cd DnsZoneTrasnfer/
 chmod +x dnsZoneTransfer
 ```
 ```
-./dnsZoneTransfer <domain name>
+./dnsZoneTransfer
 ```
 
